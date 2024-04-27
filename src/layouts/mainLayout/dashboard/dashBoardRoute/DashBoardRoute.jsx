@@ -50,9 +50,10 @@ const DashBoardRoute = () => {
         {/* Main Content */}
         <div className="lg:w-3/4 p-4">
           {/* Add main content components */}
-          {/* <h2 className="text-3xl font-bold text-white mb-4">
-            Welcome to Your Dashboard
-          </h2> */}
+          <h2 className="text-xl font-bold text-white mb-8">
+          Hello Az SLeverage (not Az SLeverage? <span className="text-[#14F194]">Log Out</span>)
+          </h2>
+          <p className="text-white text-xl">From your account dashboard you can view your <span className="text-[#14f194]">recent orders</span>, manage your ,<span className="text-[#14f194]">shipping and billing addresses</span>, and <span className="text-[#14f194]">edit your password and account details</span>.</p>
           <Outlet></Outlet>
         </div>
       </div>
