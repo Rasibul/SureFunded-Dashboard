@@ -7,6 +7,7 @@ import Contactus from "../pages/contactUs/Contactus";
 import Faq from "../pages/faq/Faq";
 import BuyChallenges from "../pages/buyChallenges/BuyChallenges"
 import AboutUs from "../pages/aboutUs/AboutUs";
+import DashBoard from "../layouts/mainLayout/dashboard/DashBoard";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path:"/dashboard",
+    element:<DashBoard/>
+  }
 ]);
 
 export default router;
