@@ -1,0 +1,14 @@
+{
+  "prettier/prettier": [
+    "error",
+    {
+      "semi": false,
+      "tabWidth": 4,
+      "printWidth": 100,
+      "singleQuote": true,
+      "parser": "flow",
+      "trailingComma": "none",
+      "jsxBracketSameLine": true
+    }
+  ]
+}

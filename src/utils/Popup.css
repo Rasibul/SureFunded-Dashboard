@@ -1,0 +1,88 @@
+/* CSS for responsive popup */
+.popup-container {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #14f194;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  border-radius: 14px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-heading {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-text {
+  color: white;
+}
+
+.giveaway-text {
+  color: #14f194;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.subscribe-button {
+  color: black;
+  margin-top: 10px;
+}
+
+.newsletter-text {
+  color: white;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .popup-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .popup-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  .popup-heading {
+    font-size: 1.2rem;
+  }
+
+  .email-input {
+    max-width: 250px;
+  }
+}
